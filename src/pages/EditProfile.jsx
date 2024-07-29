@@ -36,7 +36,7 @@ const EditProfile = () => {
             }
 
             const response = await axios.patch(
-                `http://localhost:3000/api/v1/users`,
+                `https://altiusbackendtaskrabbit.vercel.app/api/v1/users`,
                 updateUser,
                 {
                     withCredentials: true,

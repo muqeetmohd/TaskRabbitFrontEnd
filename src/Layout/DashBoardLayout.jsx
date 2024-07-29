@@ -13,7 +13,7 @@ const DashboardLayout = () => {
     const handleLogout = async () => {
         try {
             const response = await axios.post(
-                "http://localhost:3000/api/v1/auth/logout",
+                "https://altiusbackendtaskrabbit.vercel.app/api/v1/auth/logout",
                 { withCredentials: true }
             );
             Swal.fire({
